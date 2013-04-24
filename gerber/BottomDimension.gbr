@@ -1,0 +1,12 @@
+G04 DipTrace 2.3.0.3*
+%INBottomDimension.gbr*%
+%MOIN*%
+%FSLAX44Y44*%
+G04*
+G70*
+G90*
+G75*
+G01*
+%LNBotDimension*%
+%LPD*%
+M02*
