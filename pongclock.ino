@@ -244,6 +244,7 @@ void keeptime() {
   }
 
   if (minute > 59) {
+    newminute = 0;
     newhour = 1;
     
     minute = 0;
