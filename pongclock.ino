@@ -359,13 +359,13 @@ void calc_target_y() {
   // instead of seeking it.
   
   if (newminute && ball_dx == 1) {
-    if (target_y < h - paddle_h) {
+    if (target_y > h - paddle_h) {
       target_y = target_y - paddle_h;
     } else {
       target_y = target_y + paddle_h;
     }
   } else if (newhour && ball_dx == -1) {
-    if (target_y < h - paddle_h) {
+    if (target_y > h - paddle_h) {
       target_y = target_y - paddle_h;
     } else {
       target_y = target_y + paddle_h;
