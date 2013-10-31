@@ -8,7 +8,7 @@
 
 #define PONGCLOCK "pck"
 
-struct {f
+struct {
   char pongclock[4];
   byte ledpwm;
 } settings = {
