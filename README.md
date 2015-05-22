@@ -1,7 +1,7 @@
 Pongclock
 =========
 
-![Pongclock](http://robparrett.com/static/pongclock1.jpg)
+![Pongclock](http://robparrett.com/misc/pongclock1.jpg)
 
 * it's a clock
 * arduino compatible
