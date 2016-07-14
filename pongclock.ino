@@ -1,10 +1,10 @@
-#include <Bounce.h>
+#include <Bounce2.h> // https://github.com/thomasfredericks/Bounce2/
 #include <SPI.h>
 #include <Wire.h>
 #include <EEPROM.h>
 #include "RTClib.h" // https://github.com/adafruit/RTClib
-#include <Adafruit_GFX.h>    // https://github.com/adafruit/Adafruit-ST7735-Library
-#include <Adafruit_ST7735.h> //
+#include <Adafruit_GFX.h>    // https://github.com/adafruit/Adafruit-GFX-Library
+#include <Adafruit_ST7735.h> // https://github.com/adafruit/Adafruit-ST7735-Library
 
 #define PONGCLOCK "pck"
 
