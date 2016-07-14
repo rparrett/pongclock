@@ -16,7 +16,7 @@ struct {
   0
 };
 
-int8_t ledpwm_steps[4] = { 255, 128, 64, 16 };
+byte ledpwm_steps[4] = { 255, 128, 64, 16 };
 
 #define cs   10
 #define dc   9
