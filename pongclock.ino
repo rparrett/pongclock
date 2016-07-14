@@ -1,9 +1,9 @@
-#include <Bounce2.h> // https://github.com/thomasfredericks/Bounce2/
+#include <Bounce2.h> // https://github.com/thomasfredericks/Bounce2/ @ 8b60f9f057db7dbf7dfd395cfcc2ecaadb4ccb9a
 #include <SPI.h>
 #include <Wire.h>
 #include <EEPROM.h>
-#include "RTClib.h" // https://github.com/adafruit/RTClib
-#include <Adafruit_GFX.h>    // https://github.com/adafruit/Adafruit-GFX-Library
+#include "RTClib.h" // https://github.com/adafruit/RTClib @ f0385ab04897f27e7f625eb7a8d2c7671051df96
+#include <Adafruit_GFX.h>    // https://github.com/adafruit/Adafruit-GFX-Library @ 334e815bc1dd3f93f93c45b77b4f33bdc9bfc8c5
 #include <Adafruit_ST7735.h> // https://github.com/adafruit/Adafruit-ST7735-Library @ 8ad728d736d32820dab30c9653d1a61fb6a33ab8
 
 #define PONGCLOCK "pck"
