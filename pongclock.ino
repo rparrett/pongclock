@@ -148,6 +148,8 @@ void initclock() {
   }
   
   RTC.begin();
+
+  RTC.writeSqwPinMode(SquareWave1HZ);
   
   DateTime now = RTC.now();
 
