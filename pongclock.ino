@@ -4,7 +4,7 @@
 #include <EEPROM.h>
 #include "RTClib.h" // https://github.com/adafruit/RTClib
 #include <Adafruit_GFX.h>    // https://github.com/adafruit/Adafruit-GFX-Library
-#include <Adafruit_ST7735.h> // https://github.com/adafruit/Adafruit-ST7735-Library
+#include <Adafruit_ST7735.h> // https://github.com/adafruit/Adafruit-ST7735-Library @ 8ad728d736d32820dab30c9653d1a61fb6a33ab8
 
 #define PONGCLOCK "pck"
 
